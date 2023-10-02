@@ -3,69 +3,29 @@
 *::before{
     padding: 0;
     margin: 0;
-    border: 0;
-    background-image: url();
-    background-size: 100%;
-    background-color: hsl(32, 98%, 50%);
-}
-.header {
-    border: 5px solid rgb(226, 122, 122);
-    background-color: #ff0202;
-    font-size: large;
-
-}
-.catalog{
-    border: 5px  solid black;
-    border-collapse: collapse;
     box-sizing: border-box;
-
 }
-table.catalog tr{
-    color: rgb(0, 0, 0);
-    border: 1px solid #000;
-    box-sizing: border-box;
-    height: 25%;
-
+.Header{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    position: static;
+    margin: 0;
 }
-table.catalog td{
-    color: #000;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 25%;
-
+.navbar-nav{
+    margin-left: 1000px;
 }
-.table {
+.Intro{
     width: 100%;
-    height: 100%;
-
+    height: 100vh;
+    margin: 0;
+    background: url(https://pibig.info/uploads/posts/2022-11/1669698570_2-pibig-info-p-oboi-s-mashinoi-pinterest-3.jpg) center no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    display: flex;
 }
-.Name {
-    font-size: 100px;
-
-    color: rgb(8, 8, 77);
-}
-.I8{
-    width: 400px;
-    height: 400px;
-
-}
-.Truck1{
-    width: 400px;
-    height: 400px;
-}
-.Car1{
-    width: 400px;
-    height: 400px;
-}
-.Input1{
-    border: 1px solid black;
-    width: 100px;
-}
-.button{
-    border: 5px solid rebeccapurple;
-    width: 100px;
-    height: 50px;
-}
-.caption1 {
-    border: 4px solid black;
+.container{
+    width: 100%;
+    margin: 0 auto;
 }
