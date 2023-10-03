@@ -137,3 +137,7 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 100px;
     margin-bottom: 500px;
 }
+.pagination{
+    margin-top: 450px;
+    align-items: center;
+}

@@ -14,7 +14,7 @@
     margin: 0;
 }
 .navbar-nav{
-    margin-left: 1000px;
+    margin-left: 900px;
 }
 .Intro{
     width: 100%;
@@ -28,4 +28,8 @@
 .container{
     width: 100%;
     margin: 0 auto;
+}
+.IntroInner{
+    align-self: center;
+    width: 500px;
 }
