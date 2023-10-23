@@ -20,16 +20,28 @@
     width: 100%;
     height: 100vh;
     margin: 0;
-    background: url(https://pibig.info/uploads/posts/2022-11/1669698570_2-pibig-info-p-oboi-s-mashinoi-pinterest-3.jpg) center no-repeat;
+    background: url(https://images.unsplash.com/photo-1589810264340-0ce27bfbf751?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGJhY2tncm91bmRzfGVufDB8fDB8fHww) center no-repeat;
     background-size: cover;
     background-size: 100%;
     display: flex;
 }
 .container{
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
 }
 .IntroInner{
-    align-self: center;
-    width: 500px;
+    width: 900px;
+    margin: auto;
+}
+.main_body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: url(https://images.unsplash.com/photo-1589810264340-0ce27bfbf751?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGJhY2tncm91bmRzfGVufDB8fDB8fHww) center no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    display: flex;
+}
+#lamb{
+    width: 900px;
 }
