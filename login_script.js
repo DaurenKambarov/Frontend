@@ -1,7 +1,7 @@
 function validateForm() {
     let userEmail = document.getElementById("email").value;
     /* Pattern for email*/
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/; 
+    const emailRegex = /^[a-zA-Z0-9]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/; 
 
     let userPass = document.getElementById("password").value;
 
@@ -11,11 +11,35 @@ function validateForm() {
       /* Validation for email and password*/
     if(emailRegex.test(userEmail) && regularExpression.test(userPass)){
         alert("Login successfuly !");
+        
     } 
     else {
         alert("Login failed !");
     }
 }
+
+function validateFormSignUp() {
+    let userEmail = document.getElementById("email").value;
+    /* Pattern for email*/
+    const emailRegex = /^[a-zA-Z0-9]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/; 
+
+    let userPass = document.getElementById("password").value;
+
+      /* Pattern for password*/
+    let regularExpression = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+    
+    let userName = document.getElementById("Username").value;
+    let userNameRegex = /^[a-zA-Z\-]+$/;
+      /* Validation for email and password*/
+    if(emailRegex.test(userEmail) && regularExpression.test(userPass) && userNameRegex.test(userName)){
+        alert("Login successfuly !");
+        
+    } 
+    else {
+        alert("Login failed !");
+    }
+}
+
 
 /* Buttons for manipulating with form of Login(actualy don't work)*/
 const wrapper = document.querySelector('.wrapper');

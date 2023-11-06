@@ -20,7 +20,7 @@ body{
     margin: 0;
 }
 .navbar-nav{
-    margin-left: 1000px;
+    margin-left: 950px;
 }
 .container{
     width: 100%;
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6{
 #logo{
     color:white
 } 
-#home, #features, #pricing, #login {
+#home, #AboutUs, #Assignments, #Game, #login {
     color: white;
 }
 .Intro .discription{
