@@ -40,6 +40,17 @@ function validateFormSignUp() {
     }
 }
 
+const button = document.getElementById("button")
+const tooltip = document.getElementById('tooltip');
+button.addEventListener('mouseover', () => {
+  // Show the tooltip when hovering over the button
+  tooltip.style.display = 'block';
+});
+// Add a mouseout event listener to the button
+button.addEventListener('mouseout', () => {
+  // Hide the tooltip when moving the mouse away from the button
+  tooltip.style.display = 'none';
+});
 
 /* Buttons for manipulating with form of Login(actualy don't work)*/
 const wrapper = document.querySelector('.wrapper');
@@ -53,4 +64,8 @@ btnPopup.addEventListener('click', ()=> {
 
 iconCLose.addEventListener('click', ()=> {
     wrapper.classList.remove('active-popup');
+});
+const closeIcon = document.getElementById('close_btn');
+closeIcon.addEventListener('click', () => {
+  wrapper.classList.remove('active-popup');
 });

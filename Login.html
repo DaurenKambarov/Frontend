@@ -25,7 +25,7 @@
         </div>
         <div class="input-box">
           <span class="icon">
-            <ion-icon name="lock-closed-sharp"></ion-icon>
+            <ion-icon name="lock-closed-sharp" id="close_btn"></ion-icon>
           </span>
           <input type="password" name="password" id="password" required>
           <label>Password</label>
@@ -35,7 +35,8 @@
           <a href="#">Forgot password?</a>
         </div>
           <div>
-            <button type="submit" class="btn" onclick="validateForm()">Login</button>
+            <button type="submit" id="button" class="btn" onclick="validateForm()">Login</button>
+            <div id="tooltip" class="tooltip">Recheck your input carefully</div>
           </div>
           <div class="reg">
             <p> Don't register account?</p>

@@ -43,6 +43,37 @@ function showTusk(){
 }
 showTusk();
 
+function beyblade() {
+    let x = document.getElementById("animate")
+    x.style.marginLeft = "300px"
+    x.style.transition = "1s"
+}
+function beybladeBack() {
+    let x = document.getElementById("animate")
+    x.style.marginLeft = "300px"
+    x.style.transition = "1s"
+}
+// button animation
+const button = document.querySelector('#myButton');
+const output = document.querySelector('#output');
+
+button.addEventListener('click', function () {
+    alert('Button clicked!') = 'Button clicked!';
+});
+
+const playButton = document.querySelector('#playButton');
+const audio = document.querySelector('#myAudio');
+
+playButton.addEventListener('click', () => {
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+    audio.currentTime = 0; // Reset audio to the beginning
+  }
+});
+
+
     let countdownDate = new Date("Jan 5, 2024 00:00:00").getTime();
     let x = setInterval(function(){
         let now = new Date().getTime();
